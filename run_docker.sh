@@ -3,7 +3,7 @@
 ## Complete the following steps to get Docker running locally
 
 # Step 1:
-docker build --tag=firstdocker
+docker build -t myfirst .
 
 # Step 2: 
 docker image ls
