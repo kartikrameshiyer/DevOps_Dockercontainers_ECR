@@ -17,4 +17,4 @@ lint:
 	hadolint Dockerfile
 	pylint --disable=R,C,W1203 translate.py
 
-all: setup install lint
+all: setup install lint validate-circleci run-circleci-local

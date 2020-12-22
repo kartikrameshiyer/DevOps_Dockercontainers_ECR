@@ -6,7 +6,6 @@ WORKDIR /app
 COPY . requirement.txt
 COPY . translate.py /app/
 
-
-RUN make install &&\
-    pip install --upgrade pip &&\
+# hadolint ignore=DL3013 
+RUN make install &&\  
     pip install --trusted-host pypi.python.org -r requirement.txt
