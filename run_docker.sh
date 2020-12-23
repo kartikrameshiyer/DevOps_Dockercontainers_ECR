@@ -10,4 +10,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -it firstdocker bash
+docker run -it myfirst bash
